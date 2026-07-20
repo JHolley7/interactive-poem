@@ -33,7 +33,9 @@ body {
 	0% {opacity: 1;}
 	100% {
 		opacity: 0;}
-	100% {
-		opacity: 1;
 	}
-}
+
+	body {
+		animation-name: fadeOut;
+		animation-duration: 2s;
+	}
