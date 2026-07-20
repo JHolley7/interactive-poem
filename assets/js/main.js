@@ -29,3 +29,6 @@ function randomize() {
         div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg);`;
     })
 }
+
+//add event listener to call randomize function
+document.addEventListener("click", randomize);
