@@ -29,6 +29,7 @@ body {
 	border-bottom: 2px solid rgb(220, 200, 180);
 }
 
+/* CSS Animation Example
 @keyframes fadeOut {
 	0% {opacity: 1;}
 	100% {
@@ -39,3 +40,4 @@ body {
 		animation-name: fadeOut;
 		animation-duration: 2s;
 	}
+		*/
