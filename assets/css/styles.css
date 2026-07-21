@@ -29,20 +29,14 @@ body {
 	border-bottom: 2px solid rgb(220, 200, 180);
 }
 
-div {
-	transition-property: transform;
-	transition-duration: 3s;
-}
-
-
-
-
-
 /* CSS Animation Example
 @keyframes fadeOut {
-	0% {opacity: 1;}
+	0% {
+	opacity: 1;
+	}
 	100% {
-		opacity: 0;}
+		opacity: 0;
+		}
 	}
 
 	body {
