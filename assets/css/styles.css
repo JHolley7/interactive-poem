@@ -34,9 +34,22 @@ body {
 	cursor: pointer;
 }
 
-.last {
+.phrase {
+	display: flex;
+	gap: 0.35em;
 	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220, 200, 180);
+	position: relative;
+	grid-column: span 3;
+}
+
+.phrase::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0.8rem;
+	height: 2px;
+	background: rgb(220, 200, 180);
 }
 
 /* CSS Animation Example
