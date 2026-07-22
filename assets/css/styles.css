@@ -25,7 +25,7 @@ body {
 }
 
 .grid-container div {
-	transition: transform 0.1s ease;
+	transition: transform 1s ease;
 	cursor: pointer;
 }
 
