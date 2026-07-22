@@ -29,14 +29,14 @@ body {
 	margin: 10% 4rem 0 4rem;
 }
 
-div {
-	transition-property: transform;
-	transition-duration: 1.5s;
-}
-
 .last {
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220, 200, 180);
+}
+
+div {
+	transition-property: transform;
+	transition-duration: 1.5s;
 }
 
 .bold {
