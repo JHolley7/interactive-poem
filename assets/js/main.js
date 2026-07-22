@@ -2,7 +2,7 @@
 
 // Define Random Number Function
 function randomNumber(min, max) {
-    return Math.random() * (max - min) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // Define divs variable as all divs inside grid container
@@ -31,6 +31,4 @@ function randomize() {
 }
 
 // add click listeners to each word so the words are clickable
-divs.forEach(function (div) {
-    div.addEventListener("click", randomize);
-});
+document.addEventListener("click", randomize);

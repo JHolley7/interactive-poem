@@ -13,10 +13,10 @@ body {
 	background-color: black;
 	color: rgb(220, 200, 180); 
 	font-size: 3rem;
-	text-shadow: 0 0 10px rgb(44, 27, 7);
+	text-shadow: rgb(44, 27, 7);
 	overflow: hidden;
 	background-image: url("../img/jumpinglamb.gif");
-	background-position: middle center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -26,30 +26,16 @@ body {
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+	margin: 10% 2rem 0 4rem;
 }
 
-.grid-container div {
-	transition: transform 1s ease;
-	cursor: pointer;
-}
-
-.phrase {
-	display: flex;
-	gap: 0.35em;
+.last {
 	padding-bottom: 2rem;
-	position: relative;
-	grid-column: span 3;
+	border-bottom: 2px solid rgb(220, 200, 180);
 }
 
-.phrase::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0.8rem;
-	height: 2px;
-	background: rgb(220, 200, 180);
+.bold {
+	font-weight: bold;
 }
 
 /* CSS Animation Example
